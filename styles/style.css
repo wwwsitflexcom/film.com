@@ -13,21 +13,24 @@ body.corps h1{
 nav.navigation li{
     display: inline-block;
     padding-left: 20%;
-    font-size: 20px;
+    font-size: 40px;
     border-radius: 45px;
     height: 23px;    
 }
 li.button1 a{
     background-color: rgba(245, 6, 57, 0.822);
     text-decoration:none;
+    font-size:2em;
 }
 li.button2 a{
     background-color: rgb(233, 20, 20);
     text-decoration: none;
+    font-size:2em;
 }
 li.button3 a{
     background-color: rgb(221, 10, 28);
     text-decoration: none;
+    font-size:2em;
 }
 .fin{
     padding-top: 300px;
@@ -36,4 +39,9 @@ li.button3 a{
 }
 p.enfom{
     color: #afa8a8;
+}
+@media screen and (max-whidth:1499px){
+    .body{
+        width:90%;
+    }
 }
